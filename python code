@@ -1,0 +1,273 @@
+#We are going to develop a Menu driven Chat Bot using Python For Himachal Pradesh
+
+print("Hello,My Dear Friend!!") #Just Talking with the Person
+print("My Name is Pahadi")
+name=input("What is yours: ") #Getting his name for future use
+print("Hello,",name,"If you are planning a stay in Himachal I can Help u with that.")
+print("I would like to give u some information about Himachal Pradesh")
+print("Basic Info: Himachal Pradesh is a northern Indian state in the Himalayas. It's home to scenic mountain towns such as Dalhousie. Host to the Dalai Lama, Himachal Pradesh has a strong Tibetan presence. This is reflected in its Buddhist temples and monasteries, as well as its vibrant Tibetan New Year celebrations. The region is also well known for its trekking, climbing and skiing areas.")
+print("Capitals: Shimla (Summer), Dharamshala (Winter)")
+while True: #to run the code again and again
+	print("Let us begin with the Tourist Destinations in Himachal Pradesh:") #Showing all the places(districts) there
+	print("1.Kullu")
+	print("2.Manali")
+	print("3.Shimla")
+	print("4.Chamba")
+	print("5.Dharmashala")
+	print("6.Dalhousie")
+	print("7.Spiti Valley")
+
+	destination_choice=input("Enter The Name of the City: ") #Asking the city name from User
+	if destination_choice == "Kullu" or destination_choice=="kullu" or destination_choice == "1":
+		print("Your Choice is Kullu")
+		print("Some information about Kullu: Kullu in Himachal Pradesh is one of the most frequented tourist destinations. Kullu is situated on the banks of Beas River. It was earlier called as Kulanthipitha, meaning 'The End of the Habitable World'. Kullu Valley is also known as the 'Valley Of Gods'")
+		
+		print("Select from the List Given Below, What do you want to know more about Kullu")
+		print("1.How to Reach")
+		print("2.Tourist Attractions")
+		print("3.Hotels and Restaurants")
+		print("4.Taxi Services")
+		while True:
+			kullu_choice=input("Enter Your Choice for thing u want to know about Kullu: ")
+			if kullu_choice=="How to Reach" or kullu_choice=="how to reach" or kullu_choice=="1":
+				print("Air: Nearest Airport Kullu-Manali Airport but operations are irregular. Also it is 270km away from Kullu about a 6hr 50min drive.")
+				print("Rail: Nearest Railway Station is Joginder Nagar (JDNX), not accessible to many cities, therefore the major railway station that has good connectivity with India is Chandigarh Railway Station (CDG).")
+				print("Road: Haryana Road Transport Corporation (HRTC) has regular buses to and from Kullu to other cities in HP. Buses are also available from Delhi, Pathankot, Chandigarh. Jammu-Delhi highway, NH154, NH205 connects Kullu.")
+			elif kullu_choice=="Tourist Attractions" or kullu_choice=="tourist attractions" or kullu_choice=="Tourist attractions" or kullu_choice=="2":
+				print("Basheshwar Mahadev Temple")
+				print("Sultanpur Palace")
+				print("Parvati Valley")
+				print("Great Himalayan National Park")
+				print("Kasol")
+				print("Bijli Mahadev Temple")
+				print("Manikaran")
+				print("Bhrigu Lake")
+			elif kullu_choice=="Hotels and Restaurants" or kullu_choice=="Hotels" or kullu_choice=="Restaurants" or kullu_choice=="hotels and restaurants" or kullu_choice=="3" or kullu_choice=="hotels" :
+				print("Hotel Kullu Valley Rs.2,240/day")
+				print("Hotel Saga Valley Rs.1,209/day")
+				print("Hotel Ramneek Rs.3,339/day")
+				print("Soli-Tree Camps Rs.5,040/day")
+			elif kullu_choice== "Taxi Services" or kullu_choice == "Taxi" or kullu_choice=="taxi services" or kullu_choice=="4" or kullu_choice=="taxi" :
+				print("Kullu Operators Taxi Union")
+				print("Guru Taxi Service")
+				print("Hill Taxi Operator")
+				print("Hadimba Travels")
+			else :       
+				print("Wrong Choice!")
+			a=input("Enter if you want to know more information about Kullu (y/n): ")
+			if a=="n" or a=="N":
+				break
+	elif destination_choice=="Manali" or destination_choice =="manali" or destination_choice == "2" :
+		print("Your Choice is Manali")
+		print("Some information about Manali: Located at an altitude of 6726 feet, Manali offers splendid views of the snow-capped mountains. The Land is not just a feat to your virtual senses; it also offers you the chance to ascertain your fitness level with the sporting facilities here.")
+		print("Select from the List Given Below, What do you want to know more about Manali")
+		print("1.How to Reach")
+		print("2.Tourist Attractions")
+		print("3.Hotels and Restaurants")
+		print("4.Taxi Services")
+		while True:
+			manali_choice=input("Enter Your Choice for thing u want to know about Manali: ")
+			if manali_choice=="How to Reach" or manali_choice=="how to reach" or manali_choice=="1":
+				print("Air: Nearest Airport Kullu-Manali Airport but operations are irregular. Also it is 310km away from Manali about a 7hr 40min drive.")
+				print("Rail: Nearest Railway Station is Joginder Nagar (JDNX), not accessible to many cities, therefore the major railway station that has good connectivity with India is Chandigarh Railway Station (CDG).")
+				print("Road: Haryana Road Transport Corporation (HRTC) has regular buses to and from Manali to other cities in HP. Buses are also available from Delhi, Pathankot, Chandigarh. Jammu-Delhi highway, NH154, NH205 connects Kullu.")
+			elif manali_choice=="Tourist Attractions" or manali_choice=="tourist attractions" or manali_choice=="Tourist attractions" or manali_choice=="2":
+				print("Rohtang Pass")
+				print("Solang Valley")
+				print("Hadimba Devi Temple")
+				print("Tibetan monasteries")
+				print("Beas River")
+				print("Gulaba")
+			elif manali_choice=="Hotels and Restaurants" or manali_choice=="Hotels" or manali_choice=="hotels" or manali_choice=="Restaurants" or manali_choice=="restaurants" or manali_choice=="hotels and restaurants" or manali_choice=="3":
+				print("The Himalayan Rs.9,907/day")
+				print("ManuAllaya Resorts and Spa Rs.5,105/day")
+				print("Apple Country Resorts Rs.2,205/day")
+				print("Renest River Country Resort Rs.2,172/day")
+			elif manali_choice=="Taxi Services" or manali_choice=="taxi services" or manali_choice=="taxi" or manali_choice== "4":
+				print("Manali Taxi Service")
+				print("Maharana Tours")
+				print("Kullu Manali Taxi Services")
+				print("Western Himalayan Adventure Services")
+			else:
+				print("Wrong Choice!")
+			a=input("Enter if you want to know more information about Manali (y/n): ")
+			if a=="n" or a=="N":
+				break
+	elif destination_choice=="Shimla" or destination_choice=="shimla" or destination_choice=="3":
+		print("Your Choice is Shimla")
+		print("Some information about Shimla: The enchanting beauty of Shimla made the British declare the land as their summer capital. The colonial influence is still evident in the city. With lakes and rich greenery around, Shimla welcomes tourists round the year, of course, Zero Degree temperature in winter.")
+		print("1.How to Reach")
+		print("2.Tourist Attractions")
+		print("3.Hotels and Restaurants")
+		print("4.Taxi Services")
+		while True:
+			shimla_choice=input("Enter Your Choice for thing u want to know about Shimla: ")
+			if shimla_choice=="How to Reach" or shimla_choice=="how to reach" or shimla_choice=="1" :
+				print("Air: Jubbarhatti, which is about 23km from the town is the nearest airport which has good connectivity fro airports like Delhi. Chandigarh Airport is the nearest Major Airport")
+				print("Rail: Shimla Railway Station (SML) is 1km away from the towncentre and connects to Chandigarh, Delhi and Ambala Cantt.. It lies on the famous Kalka-Shimla Railway line.")
+				print("Road: Himachal Road Transpot Corporation (HRTC) operates regular buses connecting Shimla to other cities in HP. Buses are also available from Delhi, Pathankot, Chandigarh. Jammu-Delhi highway, NH154, NH205 connects Kullu.")
+			elif shimla_choice=="Tourist Attractions" or shimla_choice=="tourist attractions" or shimla_choice=="Tourist attractions" or shimla_choice=="2":
+				print("The Ridge")
+				print("Jakhoo Hill")
+				print("Kalka-Shimla Railway")
+				print("Indian Institute of Advanced Studies")
+				print("Summer Hills")
+				print("Kufri")
+				print("The Shimla State Museum")
+				print("Daranghati Sanctuay")
+				print("Naldehra and Shaily Peak")
+				print("Arki Fort")
+			elif shimla_choice=="Hotels and Restaurants" or shimla_choice=="hotels and restaurants" or shimla_choice=="Hotels" or shimla_choice=="hotels" or shimla_choice=="Restaurants" or shimla_choice=="restaurants" or shimla_choice=="3" :
+				print("Chapslee Rs.23,010/day")
+				print("Radisson Jass Shimla Rs.7,152/day")
+				print("Woodville Palace Hotel Rs.4,840/day")
+				print("Snow Valley Resort Rs.3,050/day")
+			elif shimla_choice=="Taxi Services" or shimla_choice == "taxi sevices" or shimla_choice=="taxi" or shimla_choice=="Taxi" or shimla_choice=="4" :
+				print("www.shimlataxi.in")
+				print("Manish Taxi")
+				print("Himalayan SYnergy Solutions")
+				print("Omcab Shimla")
+			else:
+				print("Wrong Choice!")
+			a=input("Enter if you want to know more information about Shimla (y/n): ")
+			if a=="n" or a=="N":
+				break	
+	elif destination_choice=="Chamba" or destination_choice=="chamba" or destination_choice=="4":
+		print("Your Choice is Chamba")
+		print("Some information about Chamba: The spectacular beauty of CHamba has made this place dear to nature lovers. Located on the banks of River Ravi and at an altitude of over 900 metres above sea level, Chamba makes an excellent holiday retreat. It is also at an important pilgrimage and historical destination with many important temples and forts. ")
+		print("1.How to Reach")
+		print("2.Tourist Attractions")
+		print("3.Hotels and Restaurants")
+		print("4.Taxi Services")
+		while True:
+			chamba_choice = input("Enter Your Choice for thing u want to know about Chamba: ")
+			if chamba_choice=="How to Reach" or chamba_choice =="how to reach" or chamba_choice=="1":
+				print("Air: The nearest airport is the Pathankot Airport which is about 124km (3hr 40min drive) and is well connected to Chandigarh and Delhi. ")
+				print("Rail: Pathankot Junction Railway Station (PTK) is the nearest railway station and is well connected to all the major cities of North India. ")
+				print("Road: Himachal Road Transport Corporation (HRTC) operate regular buses to and from Chamba to other cities in HP. Buses are also available from nearby cities of bordering states like Delhi, Pathankot, Chandigarh and Ambala	etc. NH9, NH44 and Chamba-Pathankot Rd connects Chamba.")
+			elif chamba_choice ==" Tourist Attractions" or chamba_choice=="tourist attractions" or chamba_choice=="Tourist attractions" or chamba_choice=="2":
+				print("Akhand Chandi Palace")
+				print("Champavati Temple")
+				print("Chamunda Devi Temple")
+				print("Bhuri Singh Museum")
+			elif chamba_choice=="Hotels and Restaurants" or chamba_choice == "hotels and restaurants" or chamba_choice=="Hotels" or chamba_choice=="hotels" or chamba_choice=="Restaurants" or chamba_choice=="restaurants" or chamba_choice=="3":
+				print("Deodar Manor Rs.10,400/day")
+				print("Hotel Country Resort Rs.2,464/day")
+				print("Himalayan Orchard Huts Rs.4,050/day")
+			elif chamba_choice=="Taxi Services" or chamba_choice=="Taxi" or chamba_choice=="taxi" or chamba_choice=="4":
+				print("Bhadrakali Taxi Service")
+				print("Shiv Bhole Travels")
+				print("Maa Kalka Tours and Travels")
+			else:
+				print("Wrong Choice!")
+			a=input("Enter if you want to know more information about Chamba (y/n): ")
+			if a=="n" or a=="N":
+				break
+	elif destination_choice=="Dharmashala" or destination_choice=="dharmashala" or destination_choice=="5":
+		print("Your Choice is Dharmashala")
+		print("Some information about Dharmashala: ")
+		print("1.How to Reach")
+		print("2.Tourist Attractions")
+		print("3.Hotels and Restaurants")
+		print("4.Taxi Services")
+		while True:
+			dhrmsla_choice=input("Enter Your Choice for thing u want to know about Dharmashala: ")
+			if dhrmsla_choice=="How to Reach" or dhrmsla_choice=="how to reach" or dhrmsla_choice=="1":
+				print("Air: Dharamshala Airport (DHM) is located 13kms from the city and has good connectivity from all majot metro cities.")
+				print("Rail: The nearest major railway station Pathankot Junction Railway Station (PTK), 85km away and is connected to all major cities. ")
+				print("Road: Himachal Pradesh Road Transport Corporation (HRTC) operates regular buses connecting Dharamshala to other cities in HP. Buses are available from all nearby cities of Bordering States like Delhi, Pathankot, Chandigarh, Ambala etc. NH503 ad Jammu-Delhi Rd connects Dharmashala.")
+			elif dhrmsla_choice=="Tourist Attractions" or dhrmsla_choice=="tourist attractions" or dhrmsla_choice=="2":
+				print("Namgyal Monastery")
+				print("Mcleodganj")
+				print("Kareri Lake")
+				print("Kangra Museum")
+				print("Dal Lake in Dharmashala")
+				print("Kangra Fort")
+			elif dhrmsla_choice=="Hotels and Restaurants" or dhrmsla_choice=="hotels and restaurants" or dhrmsla_choice=="Hotels" or dhrmsla_choice=="hotels" or dhrmsla_choice=="Restaurants" or dhrmsla_choice=="restaurants" or dhrmsla_choice=="3":
+				print("Adivaha Rs.10,735/day")
+				print("Palette (Adivaha) Cottages Rs.11,210/day")
+				print("The Horizon Villa Rs.5,528/day")
+				print("Rana's House Mcleodganj Rs.1,680/day")
+			elif dhrmsla_choice=="Taxi Services" or dhrmsla_choice=="Taxi" or dhrmsla_choice=="taxi" or dhrmsla_choice=="4":
+				print("Thakur Taxi Service")
+				print("Ashi Tours and Travels")
+				print("MM Cabs")
+			else:
+				print("Wrong Choice!")
+			a=input("Enter if you want to know more information about Dharmashala (y/n): ")
+			if a=="n" or a=="N":
+				break
+	elif destination_choice=="Dalhousie" or destination_choice =="dalhousie" or destination_choice=="6":
+		print("Your Choice is Dalhousie")
+		print("Some information about Dalhousie: Retaining not only the colonial looks but also the name, Dalhousie, was named")
+		print("1.How to Reach")
+		print("2.Tourist Attractions")
+		print("3.Hotels and Restaurants")
+		print("4.Taxi Services")
+		while True:
+			dalhousie_choice=input("Enter Your Choice for thing u want to know about Dalhousie: ")
+			if dalhousie_choice=="How to Reach" or dalhousie_choice=="how to reach" or dalhousie_choice=="1":
+				print("Air: Pathankot is the nearest airport about 75kms away.")
+				print("Rail: Nearest Major Railway Station is Pathankot Junction (PTK) and well connected to all major cities.")
+				print("Road: Himachal Pradesh Road Transport Corporation (HRTC) operates regular buses connecting Dalhousie other cities in HP. Buses are available from all nearby cities of Bordering States like Delhi, Pathankot, Chandigarh etc.Bela-Behrampur Road, NH44 and NH503 connects Dalhousie ")
+			elif dalhousie_choice=="Tourist Attractions" or dalhousie_choice=="tourist attractions" or dalhousie_choice=="Tourist attractions" or dalhousie_choice=="2" :
+				print("Khajjar")
+				print("Kalatop Wildlife Reserve")
+				print("Ganji Pahari")
+				print("St.Francis Church")
+				print("Panchpula")
+				print("Chamera Lake")
+				print("Sach Pass")
+			elif dalhousie_choice=="Hotels and Restaurants" or dalhousie_choice=="hotels and restaurants" or dalhousie_choice=="Hotels" or dalhousie_choice=="hotels" or dalhousie_choice=="Restaurants" or dalhousie_choice=="restaurants" or dalhousie_choice=="3" :
+				print("JK Clark's Exotica Rs.3,380/day")
+				print("Hotel Brijvilla Rs.4,357/day")
+				print("Snow Valley Resorts Rs.2,913/day")
+				print("Hotel Mount View Rs.3,320/day")
+			elif dalhousie_choice=="Taxi Services" or dalhousie_choice=="Taxi" or dalhousie_choice=="taxi" or dalhousie_choice=="taxi services"or dalhousie_choice=="4" :
+				print("Shivayee Tour and Travels")
+				print("Dalhousie Car Rental and Cab Service")
+				print("RV Taxi Service")
+				print("Ravi Tandon Travels")
+			else:
+				print("Wrong Choice!")
+			a=input("Enter if you want to know more information about Dalhousie (y/n): ")
+			if a=="n" or a=="N":
+				break
+	elif destination_choice=="Spiti Valley" or destination_choice=="Spiti valley" or destination_choice=="spiti valley" or destination_choice=="Spiti" or destination_choice=="spiti" or destination_choice=="7":
+		print("Your Choice is Spiti Valley")
+		print("Some information about Spiti Valley: Spiti Valley is a cold desert mountain valley located high in the Himalayas in the north-eastern part of the northern Indian state of Himachal Pradesh. The name Spiti means The middle land, i.e. the land between Tibet and India.")
+		print("1.How to Reach")
+		print("2.Tourist Attractions")
+		print("3.Hotels and Restaurants")
+		print("4.Taxi Services")
+		while True:
+			spiti_choice=input("Enter Your Choice for thing u want to know about Spiti Valley: ")
+			if spiti_choice=="How to Reach" or spiti_choice=="how to reach" or spiti_choice=="1":
+				print("Air: Kullu Airport at Kullu is the nearest airport. One can board a taxi or rickshaw from the airport to reach the destination.")
+				print("Rail: Shimla is the nearest railway station. One can hire cabs and Jeeps to reach Spiti. Buses are also available to the destination from the station.")
+				print("Road: As there is no access to airport and railway in Spiti, it can only be reached by the means of roads. The roads in Spiti are almost open throughout the year. In any case one can check the itinerary as some of the roads are closed for 6 months.")
+			elif spiti_choice=="Tourist Attractions" or spiti_choice=="tourist attractions" or spiti_choice=="2":
+				print("Lahulung Monastery")
+				print("Key Monastery")
+				print("Lossar")
+				print("Trekking")
+				print("River Sports")
+			elif spiti_choice=="Hotels and Restaurants" or spiti_choice=="hotels and restaurants" or spiti_choice=="Hotels" or spiti_choice=="hotels" or spiti_choice=="Restaurants" or spiti_choice=="restaurants"	or spiti_choice=="3":
+				print("Hotel Spiti Heritage Rs.6,772/day")
+				print("Spiti Village Resort Rs.3,256/day")
+				print("Ri-dzong Residency Hotel Rs.2,500/day")
+			elif spiti_choice=="Taxi Services" or spiti_choice=="taxi services" or spiti_choice=="Taxi" or spiti_choice=="taxi" or spiti_choice=="4":
+				print("HiWay Cabs")
+				print("Budget Travellers")
+			else:
+				print("Wrong Choice!")
+			a=input("Enter if you want to know more information about Spiti Valley (y/n): ")
+			if a=="n" or a=="N":
+				break
+	else:
+		print("Wrong Choice!")
+	ch=input("Do you want to select the city again(y/n):")
+	if ch=="N" or ch=="n":
+		break
+
+#code is complete
